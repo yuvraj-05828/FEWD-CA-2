@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Handjet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef&family=Almendra+SC&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./backround-images/background-main-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1{
+    font-family: 'Aclonica', sans-serif;
+    color:#ffffff;
+    margin-bottom: 90px;
+    margin-top: 130px;
+    font-size: 60px;
+    cursor: default;
+}
+#Name{
+    font-family: 'Alfa Slab One', serif;
+    color: #FCA311;
+    font-size: 25px;
+    cursor: default;
+}
+#nick-name{
+    font-family: 'Alfa Slab One', serif;
+    color: #FCA311;
+    font-size: 25px;
+    margin-top: 45px;
+    cursor: default;
+}
+::placeholder{
+    font-family: 'Allerta', sans-serif;
+    text-align: center;
+    color: #ffffffb0;
+}
+#beg-play{
+    font-family: 'Almendra SC', serif;
+    background-color: #fca311;
+    border: 3px solid #FCA311;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    padding: 0 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-weight: 900;
+}
+#name-input{
+    width: 180px;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+#nickname-input{
+    width: 180px;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+input[type=text] {
+    border: 3px solid #ffffff;
+    background-color:  #ffffff4c;
+    color: #ffffff;
+}
+input:hover{
+    color: #FFFFFF;
+    transition: 200ms;
+    transform:  scale(1.06);
+}
+button:hover{
+    cursor: pointer;
+    transform:  scale(1.11);
+    transition: 800ms;
+    background-color: #FCA311;
+}
+#beg-play:hover{
+    cursor: pointer;
+    transform:  scale(1.11);
+    transition: 800ms;
+    background-color: #fca21100;
+}
+
+
+/* making page responsive */
+@media screen and (max-width: 576px) {
+    /* Mobile styles */
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        letter-spacing: 1px;
+        /* margin-top: 100px; */
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+    #beg-play {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    #name-input,
+    #nickname-input {
+      width: 100%;
+    }
+  }
+
+  audio{
+    visibility: hidden;
+  }
+  
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    /* Tablet styles */
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        letter-spacing: 1px;
+        /* margin-top: 100px; */
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    }
+    #beg-play {
+      width: 150px;
+      margin-top: 30px;
+    }
+  
+    #name-input,
+    #nickname-input {
+      width: 180px;
+    }
+  
+  
+  @media screen and (min-width: 769px) {
+    /* Desktop styles */
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        letter-spacing: 1px;
+        /* margin-top: 100px; */
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+    #beg-play {
+      width: 200px;
+      margin-top: 40px;
+    }
+  
+    #name-input,
+    #nickname-input {
+      width: 250px;
+    }
+  }
+  
